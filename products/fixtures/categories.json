@@ -37,15 +37,15 @@
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "jeans",
-        "friendly_name": "Jeans"
+        "name": "smartwatches",
+        "friendly_name": "smartwatches"
     }
 }, {
     "pk": 7,
     "model": "products.category",
     "fields": {
-        "name": "kitchen_dining",
-        "friendly_name": "Kitchen & Dining"
+        "name": "cameras",
+        "friendly_name": "cameras"
     }
 }, {
     "pk": 8,
@@ -58,7 +58,7 @@
     "pk": 9,
     "model": "products.category",
     "fields": {
-        "name": "shirts",
-        "friendly_name": "Shirts"
+        "name": "starterkits",
+        "friendly_name": "starter kits"
     }
 }]

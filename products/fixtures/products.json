@@ -1,0 +1,142 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "SONOFF NSPanel Pro Smart Home Control Panel Dim Gray",
+            "description": "【All in One Panel Control】: Unlimited number of control devices, supports control all SONOFF devices, from smart lights, smart cameras, security sensors to switches, etc., and will continue to support SONOFF new device in the future. ",
+            "price": 179.99,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzeJJFlcv7ekgrawsw1P69jCJEcQTutmF3dfLQWMbjx21uZKwSuLkoTKBOpbYpIfzFbCpO6VU2kpLFOG_QnRriMZNvjsqLK5j9MOb4O9Quon0RYigJfE_c&usqp=CAE",
+            "image": "sonofsmarthomepanel.webp"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "Google nest hub 2nd generation smart display",
+            "description": "Central hub for controlling a smart home, working with a number of compatible devices. Operated by touch or voice control. Features Quick Gestures for motion-detected hands-free control of many Nest Hub features. Enhanced speaker delivers 50% more bass than original Nest Hub and can be grouped with other Nest speakers and displays for sound in every room. Ideal for setting timers, alarms and reminders, watching films and videos, listening to music and getting news and weather reports.",
+            "price": 112.00,
+            "category": 6,
+            "rating": 5,
+            "image_url": "https://media.screwfix.ie/is/image//ae235?src=ae235/414RV_P&$prodImageMedium$",
+            "image": "googlehub.webp"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600525",
+            "name": "Amazon Echo Show 8",
+            "description": "Catch up on today’s news and sports highlights. Watch TV programmes, films, music videos or film trailers from Prime Video, Netflix and more. Stream music from Amazon Music, Apple Music and Spotify, or follow step-by-step recipe videos with BBC Good Food.",
+            "price": 119.99,
+            "category": 6,
+            "rating": 5,
+            "image_url": "https://m.media-amazon.com/images/I/71xlIRIjvkL._AC_SL1500_.jpg",
+            "image": "echoshow8.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600625",
+            "name": "H2 Smart Home Starter Kit",
+            "description": "The H2 Starter Kit provides you with all of the devices you need for a smart home: Gateway, window and door control, and thermometer and air meter make your life easier, nicer and safer. And the best part: The H2 Starter Kit is easy to install, incredibly simple to operate, and can always be supplemented with other H2 products.",
+            "price": 104.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "https://m.media-amazon.com/images/I/51uPy6dlU3S._AC_SX355_.jpg",
+            "image": "h2smart.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600725",
+            "name": "Google Thermostat",
+            "description": " Meet the Google Nest Thermostat the smart thermostat for home with a cozy price. It can turn itself down to save energy when you leave the house. You can control this programmable thermostat from anywhere with the Google Home app whether you're on an errand or in bed. And it's simple to install yourself, usually in 30 minutes or less. Remote control and mobile notifications require working internet and Wi-Fi. Alerts can notify you of a potential issue with eligible HVAC systems. They're meant to provide helpful information, not an endorsement, representation, or warranty of any kind about the health of your HVAC system. Alerts aren't intended to replace a diagnosis by a qualified HVAC professional.",
+            "price": 159.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://m.media-amazon.com/images/I/61A+x8c9VeL._AC_SX385_.jpg",
+            "image": "googlethermo.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600825",
+            "name": "Xiaomi Aqara Radiator Thermostat E1",
+            "description": "Even in the colder months of the year, your home should be nice and warm and comfortable. Yet at the same time, you also want to pay a little attention to your energy consumption. Thanks to the Xiaomi Aqara Radiator Thermostat E1, you have all this at your fingertips: heating economically and adjusting each room of your home to the wants and needs of you and your family members.",
+            "price": 69.99,
+            "category": 4,
+            "rating": 3,
+            "image_url": "https://cdn.webshopapp.com/shops/256009/files/412547874/450x450x2/xiaomi-aqara-xiaomi-aqara-radiator-thermostat-e1.jpg",
+            "image": "xiamoirad.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600925",
+            "name": "TP-Link Mini Smart Wi-Fi Socket Energy Monitoring | 2 Pack",
+            "description": "Monitor real-time power consumption and energy spend via the Tapo App. Save smarter by managing your appliances for when electricity is cheaper.",
+            "price": 25.00,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": "https://hniesfp.imgix.net/8/images/detailed/363/TAPOP110-2PACK_1.jpg?fit=fill&bg=0FFF&w=833&h=555&auto=format,compress",
+            "image": "smartmonitor.avif"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600126",
+            "name": "MYDLINK SMART HOME STARTER KIT & CAMERA",
+            "description": "Smart Home Starter Kit allows you to set, control, monitor and automate your home via Wi-Fi from any location. Kit includes a Smart Plug, a Wi-Fi Motion Sensor and an HD Monitor.",
+            "price": 144.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://media.screwfix.ie/is/image//ae235?src=ae235/8058H_P&$prodImageMedium$",
+            "image": "mydlink.webp"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600127",
+            "name": "Philips Hue DIM Switch - Philips Hue",
+            "description": "Hue Dim DIM Switch is a remote control/switch for controlling your Philips Hue lighting. When you set the light using the smartphone app, you can connect a Hue Dim Switch, which doubles as a remote control for your light. That way, you don’t need to grab your phone every time you want to turn your lights on or off or simply dim them.",
+            "price": 25.00,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://www.fotoagent.dk/images/w/ahAs2Bfj4xT6V_koU0t9zA/s/11870/138/8719514274617.jpg?v=109541944",
+            "image": "hueswitch.webp"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600128",
+            "name": "Anker Zolo Mojo WiFi/Bluetooth Speaker Google Assistant Smart Home Speaker Multi-room 4-Pack",
+            "description": "The Quad pack of the Zolo Mojo’s will deliver superior sound quality with your own personal smart assistants around your home. The Mojo is an outstanding voice activated compact speaker using great sound integrated with Google assistant. With the Zolo Mojo you are able to play music, get personalised help and control a wide range of compatible smart devices. The Zolo Mojo’s can effortlessly blend into any room with the ability to sync with multiple devices and speakers and deliver exceptional sound.",
+            "price": 110.99,
+            "category": 4,
+            "rating": 5,
+            "image_url": "https://www.scan.co.uk/images/products/3054741-a.jpg",
+            "image": "ankerspeakers.jpg"
+        }
+    }
+]
