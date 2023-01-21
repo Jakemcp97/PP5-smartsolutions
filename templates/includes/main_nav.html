@@ -22,21 +22,21 @@
                 Smart Home
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="?category=activewear,essentials" class="dropdown-item">Lights</a>
-                <a href="?category=jeans" class="dropdown-item">Room additions</a>
-                <a href="?category=shirts" class="dropdown-item">Plugs</a>
-                <a href="?category=activewear,essentials,jeans,shirts" class="dropdown-item">All Home</a>
+                <a href="{% url 'products' %}?category=smarthub" class="dropdown-item">Smart hubs</a>
+                <a href="{% url 'products' %}?category=plug_in,starterkits" class="dropdown-item">Plug ins</a>
+                <a href="{% url 'products' %}?category=cameras" class="dropdown-item">cameras</a>
+                <a href="{% url 'products' %}?category=smarthub,plug_ins,starterkits,cameras" class="dropdown-item">All Home</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Smart Kitchen
+                Smart Apparel
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="?category=bed_bath" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="?category=kitchen_dining" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="?category=bed_bath,kitchen_dining" class="dropdown-item">All Homeware</a>
+                <a href="?category=bed_bath" class="dropdown-item">Smart watches</a>
+                <a href="?category=kitchen_dining" class="dropdown-item">smart clothing</a>
+                <a href="?category=bed_bath,kitchen_dining" class="dropdown-item">All Wearables</a>
             </div>
         </li>
 
