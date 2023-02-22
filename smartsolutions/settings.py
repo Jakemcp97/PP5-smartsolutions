@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'profiles',
     'crispy_forms',
     'storages',
+    'contact',
 
 
     # 'allauth.socialaccount.providers.google',
