@@ -109,13 +109,14 @@
                 </div>
             </div>
         </div>
+
         {% if request.user.is_authenticated %}
       <div class="row d-flex justify-content-center">
 
         
         <div class="col-md-6 text-center">
 
-          <h4 class="my-4 h4">Welcome {{ request.user.username}}, please leave a your review</h4>
+          <h4 class="my-4 h4">Welcome {{ request.user.username}}, please leave your review</h4>
 
           <form action="{% url 'add_review' product.slug %}" method="post">
             {% csrf_token %}
