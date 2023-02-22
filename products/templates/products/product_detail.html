@@ -109,6 +109,75 @@
                 </div>
             </div>
         </div>
+        {% if request.user.is_authenticated %}
+      <div class="row d-flex justify-content-center wow fadeIn">
+
+        
+        <div class="col-md-6 text-center">
+
+          <h4 class="my-4 h4">Welcome {{ request.user.username}}, please leave a your review</h4>
+
+          <form action="{% url 'add_review' product.slug %}" method="post">
+            {% csrf_token %}
+            <div>
+              <label for="{{ form.rating.id_for_label }}">Rating:</label>
+              {{ form.rating }}
+            </div>
+            <div>
+              <label for="{{ form.content.id_for_label }}">Review:</label>
+              {{ form.content }}
+            </div>
+            <input type="submit" value="Add" />
+          </form>
+
+        </div>
+        
+
+      </div>
+      {% endif %}
+      
+
+      
+      <div class="row wow fadeIn">
+
+        
+      <section class="text-center mb-4">
+
+        <div class="row wow fadeIn">
+
+          {% for review in reviews %}
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <div class="card">
+
+              <div class="view overlay">
+                <img src="{{ product.image.url }}" class="card-img-top">
+                <a href="{{ product.get_absolute_url }}">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <div class="card-body text-center">
+                <a href="" class="grey-text">
+                  <h5>{{ review.content }}</h5>
+                </a>
+                <h5>
+                  <strong>
+                   Reviewed by: {{ review.author }}
+                  </strong>
+                </h5>
+                <h6 class="font-weight-bold blue-text">
+                  <strong>Rating: {{ review.rating }}
+                  </strong>
+                </h6>
+
+              </div>
+
+            </div>
+
+          </div>
+          {% endfor %}
+        </div>
     </div>
 {% endblock %}
 

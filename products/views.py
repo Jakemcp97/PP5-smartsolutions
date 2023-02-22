@@ -3,8 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category
-from .forms import ProductForm
+from .models import Product, Category, Review
+from .forms import Product
 
 # Create your views here.
 
@@ -92,7 +92,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -140,3 +140,22 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+def add_review(request, slug):
+    product = get_object_or_404(Product, slug=slug)
+    form = ReviewForm(request.POST)
+    if form.is_valid():
+        rating = form.cleaned_data['rating']
+        content = form.cleaned_data['content']
+        author = request.user
+        review = Review()
+        review.product = product
+        review.author = author
+        review.rating = rating
+        review.content = content
+        review.created_date = datetime.datetime.now()
+        review.save()
+        return HttpResponseRedirect(reverse('home'))
+
+    return render(request, 'product-page.html', {'product': product})
