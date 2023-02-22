@@ -1,108 +1,386 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<p align="center"><img src="media/smart1.png"></p>
 
-Welcome Jakemcp97,
+# Smart Solutions Tech Shop
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+For my **Portfolio  Project** on the **Code Institute's Diploma in Software Development (E-commerce Applications)** course I have created an online e-commerce Website for a shop called Smart Solutions.  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Smart solutions is a smart technology shop that sells all sorts of household and personal smart technology.  It’s main objective is to provide a variety of technologies for simplifying life and creating the environment you want. 
 
-## Gitpod Reminders
+Link to the deployed app is [here](https://smart-solutions-jmp.herokuapp.com).
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-----
 
-`python3 -m http.server`
+## Objective?
 
-A blue button should appear to click: _Make Public_,
+-----
 
-Another blue button should appear to click: _Open Browser_.
+Smart solutions is designed as an e-commerce website to get users to purchase Smart technologies. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+|Link | User Story | Sprint/Satisfied |
+|---------|---------|---------|
+|[]()|story|Basic Setup|
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Agile Methodology - UX
 
-To log into the Heroku toolbelt CLI:
+To plan this project I used agile methodology.  This was done using Github and the Project Board before starting the project.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Link to the project app is [here]().
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+I used the the Kanban board and in particular Milestones for sprints.  I was able to divide the project into different sprints such as:
 
-------
+1. Preparation
+1. Basic Setup
+1. Payments
+1. New Models
+1. Store Management
+1. Design Completion
 
-## Release History
+For better organisation I used both the Table View and Kanban view. The Kanban view meant I could put each issue into a different section, No status, In progress, Complete and Wishlist.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<details open>
+<summary>Kanban View</summary> 
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1668720459/mcgraths/kanban-view_hsmknk.png"></p>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+</details>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+I could also use the Kanban view to move all or remaining issues for each sprint into the "in progress" section so I was only working on issues for a particularl sprint. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<details open>
+<summary>Kanban View Sprints</summary> 
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1669152493/mcgraths/sprint-view_ylaloh.png"></p>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+</details>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The table view allowed me to view all of the issues in each sprint clearly so I could see what was left to be done in each sprint.  
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<details open>
+<summary>Table View</summary> 
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1668720518/mcgraths/table-view-agile_dzhxti.png"></p>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+</details>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Issues were created by way of User Stories or Admin User Stories and any other elements required to complete the database.  User stories were labelled/grouped according to MoSCoW prioritization technique.While working on a particular user story they were moved into ‘In progress’.  Once completed they were moved to ‘completed’.  This gave a better view of what was to be completed and what had already been completed.  As work was committed to the github repository each issue was marked completed which automatically moved to the ‘completed’ section on the Kanban Board.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Wireframes
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Link to the wireframes app is [here](https://github.com/rockymiss/mcrocks-shop/blob/main/Wireframes.pdf).
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Flow Chart
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+I used this simple flow chart to give me a basic flow of the website. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<details open>
+<summary>Flow Chart</summary>
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1668103769/mcgraths/mcRocksflowchart_n8e2z8.png"></p>
+</details>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Database Schema
 
-------
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1668103542/mcgraths/mcrock_database-schema_w33wqq.png"></p>
 
-## FAQ about the uptime script
+## Site Structure 
 
-**Why have you added this script?**
+The website consists of ? pages
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Design
 
-**How will this affect me?**
+### Colours
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Colour info here
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Colour Palette](https://res.cloudinary.com/rockymiss/image/upload/v1668103000/mcgraths/mcrocks-palette_rmuxd0.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Gradient](#)
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Typography
 
-**Can I opt out?**
+Clean font - Albert Sans - content text weight 400 headings weight 700 bold
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Features
 
-**Anything more?**
+### Existing Features
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Navigation
 
----
+Navigation appears on each page.  The design remains consistent throughout, however the menu options change depending of whether a user or admin user is logged in or out. 
 
-Happy coding!
+<details open>
+<summary>Navigation</summary> 
+<p align="center"><img src="#"></p>
+
+<p align="center"><img src="#"></p>
+
+<p align="center"><img src="#"></p>
+
+<p align="center"><img src="#"></p>
+
+</details>
+
+
+#### Home Page
+
+This page is the landing page and is the first page that users will see when the site loads.  logo etc.
+Page info
+
+<details open>
+<summary>Image</summary> 
+<p align="center"><img src="#"></p>
+
+<p align="center"><img src="#"></p>
+</details>
+
+
+#### Page Name
+
+Page info
+
+<details open>
+<summary>Image</summary> 
+<p align="center"><img src="#"></p>
+
+<p align="center"><img src="#"></p>
+</details>
+
+-----
+
+## SEO & Marketing
+
+-----
+
+### Marketing
+
+Questions that I asked myself before starting this website:
+
+**Who are your users?**
+
+children
+parents
+amateur cake makers
+professional cake makers
+
+**Which online platforms and social media would you find lots of your users?**
+
+Facebook, Instagram, TikTok
+
+**What do your users need?  Could you meet that need with useful content? If yes, how could you best deliver that content to them?**
+
+Gift ideas for occasions and cake making tips or ideas.  I would like to showcase users cakes which would give amateur cake makers ideas for making their own cakes.
+
+**Would your business run sales or offer discounts?  How do you think your users would most like to hear about these offers?**
+
+Yes it would run offers.  I would like to do this by way of newsletter so that only members that have signed up will receive the offer.  This would hopefully get more users to sign up to the newsletter.
+
+**What are the goals of your business?  Which marketing strategies would offer the best ways to meet those goals?**
+
+To sell cake supplies and bring people back to the website.  I would use email marketing and social media marketing.  The space for users to upload their cake images is also a way to bring people back to the website. 
+
+**Would your business have a budget to spend on advertising?  Or would it need to work with free or low cost options to market itself?**
+
+No the business is too small for an advertising budget so marketing will be done on social media and email for now with a few to having a budget further down the line when the business expands.
+
+
+### Keywords
+
+After brainstorming keywords for this website using wordtracker.com[Wordtracker.com](https://www.wordtracker.com/) I used the following:
+
+1. Simple cake design
+1. Decorating cake ideas
+1. Cake design ideas
+1. Cake toppers ireland
+1. personalised cake toppers
+1. birthday cake design
+1. wedding cake design
+
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1668719894/mcgraths/cake-toppers-keywords_kwixxj.png"></p>
+
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1668719894/mcgraths/cake-design-keywords_g2xxpz.png"></p>
+
+### Content
+
+Questions I asked myself in relation to content?
+
+**What do your users need?**
+
+cake supplies
+cake boards and boxes
+cake toppers
+cake toppings
+cookie cutters
+piping bags and nozzles
+icing
+food colouring
+
+**What information and features can you provide to meet those needs?**
+
+A clear display of all cake supplies.  The titles for each item must be clear and in the correct category.  Pricing should be easily seen and it should be easy for the user to purchase items and add or remove from the shopping cart.
+
+**How can you make the information easy to understand?**
+
+By using clear and easy language with easy to read typography for all readers.  Clear images with a good description on alt text, clear categories and titles, simple payment process, and an intuitive and clear design.  
+
+**How can you demonstrate expertise, authoritativeness and trustworthiness in your content?**
+
+Pages such as Home, About Us, Returns Policy, Frequently Ask Questions, Privacy and Contact.
+
+**Would there be other pages within your own site you could link to from your chosen page?**
+
+Cake Supplies, Post a picture of your cake, error pages
+
+**Are there opportunities to link back to external websites that already rank highly on Google?**
+
+Links to purchasers who are local cake makers.  This would show loyality to clients with a view to keeping them as clients.  
+
+-----
+
+## Future Implementation
+
+-----
+
+## Technologies Used
+
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) to provide content and structure to the website.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) provides styles for the website.
+- [Python](https://www.python.org/) to provide functionality to the website. Libraries used can be found in [requirements.txt](requirements.txt)
+- [Django](https://docs.djangoproject.com/en/4.1/)
+- [Javascript](https://www.javascript.com/) for timeout functions on messages.
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) for layout and style of templates.
+- [Bootstrap MD](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885096?view=side) to create footer.
+- [a11y](https://color.a11y.com/Contrast/) to test contrast.
+- [TinyPNG](https://tinypng.com/) to compress images.
+- [Cloudinary](https://cloudinary.com/) to store images.
+- [GitPod](https://www.gitpod.io/) to create and edit the website.
+- [GitHub](https://github.com/) to host website
+- [GitBash](https://www.atlassian.com/git/tutorials/git-bash#:~:text=What%20is%20Git%20Bash%3F,operating%20system%20through%20written%20commands.) to push changes to GitHub.
+- [Heroku](https://id.heroku.com/login) to deploy the website.
+- [Heroku PostgreSQL](https://id.heroku.com/login) to database during development and deployment
+- [Balsamiq](https://balsamiq.com/) to create wireframes.
+
+-----
+
+## Resources
+
+- [Code Institute](https://codeinstitute.net/ie/) for course materials, tutor and mentor support, Boutique Ado
+- [Slack](https://slack.com/intl/en-ie/) in particular the Code Institute Slack Community.
+- [W3schools](https://www.w3schools.com/)
+- [Django](https://docs.djangoproject.com/en/4.1/)
+- [Pixabay](https://pixabay.com/photos/cupcake-dessert-cake-food-3723832/) for cupcake image on home page
+- [Stack OverFlow](https://stackoverflow.com/) 
+- [Dango Central](https://djangocentral.com/building-a-blog-application-with-django/)
+- [Dango Mastery YouTube](https://www.youtube.com/watch?v=NhWVl5Z7SHU) for search functionality with Class Based View
+- [bbootstrap](https://bbbootstrap.com/search?query=navbar&page=1) for the website's navbar
+- [mdbootstrap](https://mdbootstrap.com/docs/standard/extended/shopping-carts/) for the shopping cart
+- [Ozcart](https://ozcart.com/ecommerce/common-online-store-faqs-for-your-customers/)
+for the Frequently Asked Questions
+
+-----
+
+## Testing
+
+I have created a seperate md file for [Testing](TESTING.md).
+
+## Version Control
+
+
+### Git and GitHub 
+
+Local repository and IDE used: GitPod
+Remote repository used: GitHub
+
+Steps followed: 
+- I created a new public repository on GitHub using the Code Institute template.
+- I then created a workspace and started coding on GitPod. 
+- All relevant files were created. 
+- To save my work safely I continued to use the terminal consistently by using: 
+    - **git add .** to add work to git
+    - **git commit -m""** to commit the work 
+    - **git push** to update work to GitHub 
+
+
+### Deployment to Heroku
+
+Deployment is done after Creating the Django Project in your virtual environment.  To create the project the following need to be carried out:-
+
+| Steps | **Notes/Code**
+|:-------:|:--------|
+| Install Django and gunicorn| pip install django gunicorn
+| Install any supporting libraries| pip install dj_database_url psycopg2
+| Create requirements.txt| pip3 freeze --local > requirements.txt
+| Create Django Project  | django-admin startproject **project name**
+| Create apps | python manage.py startapp **app name**
+| Add app to list of installed apps in settings.py ||
+| Make migrations | python3 manage.py makemigrations
+| Migrate Changes | python3 manage.py migrate
+| Test server locally | python3 manage.py runserver
+| Procfile | python run.py > Procfile
+| Push changes to github repository | git add. git commit and git push
+| Create new app on Heroku | https://dashboard.heroku.com/
+
+
+1. Click on "Resources tab" underneath the "Add-ons" section.
+1. Search of Heroku Postgres and attach it to your app.
+1. Click on "Settings" tab and open "Config Vars" where you will see that a new Postgrest database URL has been automatically applied.
+1. The following environment variables should be included:
+
+|  | **Environment Variables**
+|:-------:|:--------|
+| DATABASE_URL ||
+| CLOUDINARY_URL| Found on cloudinary dashboard|
+| PORT | 8000|
+| SECRET_KEY |: Key or your choice|
+| DEBUG | Set to True|
+| DISABLE_COLLECTSTATIC | 1|
+
+
+
+1. Update the settings.py file in particular change the debug setting, DEBUG = False to DEBUG = True
+1. In Heroku settings, config vars change the DISABLE_COLLECTSTATIC value from 1 to 0.
+1. Click the deploy tab in Heroku.
+1. In deployment method select 'Github' and click the 'connect to Github button.
+1. Searh for your repository name.
+1. Deploy Branch. 
+
+
+  ### Fork a Repository: 
+        
+    A copy can be made of a repository by forking the repository.  The copy can then be viewed and changed without affecting the original repository. 
+    
+      - From your list of repositories select the repository you want to fork.
+      - On the top of the page to the right had side you will see a fork image.  Click on the button to create a copy. 
+
+      
+  <details open>
+<summary>Fork Preview Image</summary>
+<br>
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1642789173/kitchen-nippers/fork-preview_xraeo2.png"></p>
+
+</details>
+
+### Clone a Repository:
+
+    Cloning this project from GitHub can be done by following these steps: 
+    
+      - From your list of repositories select the repository you want to deploy.
+      - Click on the code tabe. 
+      - Click on the clipboard icon to copy the URL.  
+      - Open Git Bash in your IDE. 
+      - Change the current working directory to the location you want to place the clone. 
+      - Type git clone and paste the copied URL.  
+      - Press enter for the clone to be created. 
+
+  <details open>
+<summary>Clone Preview Image</summary>
+<br>
+<p align="center"><img src="https://res.cloudinary.com/rockymiss/image/upload/v1642790166/kitchen-nippers/clone-preview_kkvsfx.png"></p>
+
+</details>
+<br>
+
+-----
+## Acknowledegments/Conclusion
