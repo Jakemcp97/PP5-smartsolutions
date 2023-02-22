@@ -3,8 +3,10 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+import datetime
+from django.http import HttpResponseRedirect
 from .models import Product, Category, Review
-from .forms import Product
+from .forms import Product, ReviewForm
 
 # Create your views here.
 
@@ -66,11 +68,13 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
+    form = ReviewForm()
 
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
         'product': product,
+        'form': form
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -142,8 +146,8 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
-def add_review(request, slug):
-    product = get_object_or_404(Product, slug=slug)
+def add_review(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
     form = ReviewForm(request.POST)
     if form.is_valid():
         rating = form.cleaned_data['rating']
@@ -158,4 +162,8 @@ def add_review(request, slug):
         review.save()
         return HttpResponseRedirect(reverse('home'))
 
-    return render(request, 'product-page.html', {'product': product})
+    context = {
+        'product': product,
+    }
+
+    return render(request, 'products/product_detail.html', context)

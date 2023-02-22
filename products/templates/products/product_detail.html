@@ -118,17 +118,17 @@
 
           <h4 class="my-4 h4">Welcome {{ request.user.username}}, please leave your review</h4>
 
-          <form action="{% url 'add_review' product.slug %}" method="post">
+          <form action="{% url 'add_review' product.id %}" method="post">
             {% csrf_token %}
             <div>
-              <label for="{{ form.rating.id_for_label }}">Rating:</label>
-              {{ form.rating }}
+              <label for="{{ form.rating }}">Rating:</label>
+              {{ form.rating}}
             </div>
             <div>
-              <label for="{{ form.content.id_for_label }}">Review:</label>
-              {{ form.content }}
+              <label for="{{ form.content }}">Review:</label>
+              {{ form.content}}
             </div>
-            <input type="submit" value="Add" />
+            <input type="submit" value="Submit" />
           </form>
 
         </div>
