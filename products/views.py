@@ -6,7 +6,7 @@ from django.db.models.functions import Lower
 import datetime
 from django.http import HttpResponseRedirect
 from .models import Product, Category, Review
-from .forms import Product, ReviewForm
+from .forms import Product, ReviewForm, ProductForm
 
 # Create your views here.
 
