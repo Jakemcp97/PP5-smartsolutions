@@ -78,7 +78,7 @@ def product_detail(request, product_id):
     context = {
         'product': product,
         'reviews': Review.objects.filter(product=product.id),
-        'form':form,
+        'form': form,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -164,7 +164,7 @@ def add_review(request, product_id):
         review.content = content
         review.created_date = datetime.datetime.now()
         review.save()
-        return HttpResponseRedirect(reverse('home'))
+        return HttpResponseRedirect(reverse('product_detail', args=[product.id]))
 
     context = {
         'product': product,

@@ -24,6 +24,7 @@ body {
 .card {
     max-width: 100%;
     width: 150px;
+    
 }
 .card-text {
     word-wrap: break-word;

@@ -117,17 +117,17 @@
         </div>
 
 
-        <div class="row">
+        <div class="row justify-content-center border border-secondary">
 
         
-            <section class="text-center mb-4">
+            <section class="mb-4">
       
-              <div class="row">
+              <div class="row ">
       
                 {% for review in reviews %}
-                <div class="col-lg-12 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
       
-                  <div class="card">
+                  <div class="card mx-auto">
       
                     <div class="card-body">
                       <h5 class="grey-text card-text">{{ review.content }}</h5>
@@ -157,19 +157,21 @@
 
         <div class="col{% if s %}-12 mt-2{% endif %} text-center" >
 
-          <h4 class="my-4 h4">Welcome {{ request.user.username}}, please leave your review</h4>
+          <h4 class="my-4 h4">Used this product? Please leave your review:</h4>
 
           <form action="{% url 'add_review' product.id %}" method="post">
             {% csrf_token %}
             <div>
-              <label class=" btn-outline-black rounded-0 mt-5" for="{{ form.rating.id_for_label }}">Rating:</label>
-              <hr>
+              <label class=" btn rounded-0 mt-5" for="{{ form.rating.id_for_label }}">Rating:</label>
+            </div>
+            <div>
               {{ form.rating }}
             </div>
-            <hr>
+            
             <div>
-              <label class=" btn-outline-black rounded-0 mt-5" for="{{ form.content.id_for_label }}">Review:</label>
-              <hr>
+              <label class=" btn rounded-0 mt-5" for="{{ form.content.id_for_label }}">Review:</label>
+            </div>
+            <div>
               {{ form.content }}
             </div>
             <input type="submit" value="Submit" />
