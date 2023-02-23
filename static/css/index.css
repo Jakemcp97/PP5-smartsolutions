@@ -26,9 +26,6 @@ body {
     width: 150px;
     
 }
-.card-text {
-    word-wrap: break-word;
-}
 
 /* from Bulma */
 .icon {
