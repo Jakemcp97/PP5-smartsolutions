@@ -24,7 +24,7 @@ body {
 .card {
     max-width: 100%;
     width: 150px;
-    
+    min-width: 20px;
 }
 
 /* from Bulma */
