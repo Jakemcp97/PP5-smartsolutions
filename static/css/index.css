@@ -19,6 +19,16 @@ body {
     padding-top: 30px;
 }
 
+/*Bootstrap cards*/
+
+.card {
+    max-width: 100%;
+    width: 150px;
+}
+.card-text {
+    word-wrap: break-word;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

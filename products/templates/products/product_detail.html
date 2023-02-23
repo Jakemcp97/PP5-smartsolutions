@@ -109,24 +109,68 @@
                 </div>
             </div>
         </div>
+        
+        <div class="col-md-12 text-center">
 
-        {% if request.user.is_authenticated %}
-      <div class="row d-flex justify-content-center">
+            <h4 class="my-4 h4">Product Reviews</h4>
+  
+        </div>
+
+
+        <div class="row">
 
         
-        <div class="col-md-6 text-center">
+            <section class="text-center mb-4">
+      
+              <div class="row">
+      
+                {% for review in reviews %}
+                <div class="col-lg-12 col-md-6 mb-4">
+      
+                  <div class="card">
+      
+                    <div class="card-body">
+                      <h5 class="grey-text card-text">{{ review.content }}</h5>
+                      <h5 class="card-text">
+                        <strong>
+                         Reviewed by: {{ review.author }}
+                        </strong>
+                      </h5>
+                      <h6 class="font-weight-bold blue-text card-text">
+                        <strong>Rating: {{ review.rating }}</strong>
+                      </h6>
+      
+                    </div>
+      
+                  </div>
+      
+                </div>
+                {% endfor %}
+              </div>
+          </div>
+
+        {% if request.user.is_authenticated %}
+
+
+      <div class="row d-flex">
+
+
+        <div class="col{% if s %}-12 mt-2{% endif %} text-center" >
 
           <h4 class="my-4 h4">Welcome {{ request.user.username}}, please leave your review</h4>
 
           <form action="{% url 'add_review' product.id %}" method="post">
             {% csrf_token %}
             <div>
-              <label for="{{ form.rating }}">Rating:</label>
-              {{ form.rating}}
+              <label class=" btn-outline-black rounded-0 mt-5" for="{{ form.rating.id_for_label }}">Rating:</label>
+              <hr>
+              {{ form.rating }}
             </div>
+            <hr>
             <div>
-              <label for="{{ form.content }}">Review:</label>
-              {{ form.content}}
+              <label class=" btn-outline-black rounded-0 mt-5" for="{{ form.content.id_for_label }}">Review:</label>
+              <hr>
+              {{ form.content }}
             </div>
             <input type="submit" value="Submit" />
           </form>
@@ -136,51 +180,15 @@
 
       </div>
       {% endif %}
-      
+
 
       
-      <div class="row">
 
-        
-      <section class="text-center mb-4">
 
-        <div class="row">
 
-          {% for review in reviews %}
-          <div class="col-lg-3 col-md-6 mb-4">
 
-            <div class="card">
-
-              <div class="view overlay">
-                <img src="{{ product.image.url }}" class="card-img-top">
-                <a href="{{ product.get_absolute_url }}">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <div class="card-body text-center">
-                <a href="" class="grey-text">
-                  <h5>{{ review.content }}</h5>
-                </a>
-                <h5>
-                  <strong>
-                   Reviewed by: {{ review.author }}
-                  </strong>
-                </h5>
-                <h6 class="font-weight-bold blue-text">
-                  <strong>Rating: {{ review.rating }}
-                  </strong>
-                </h6>
-
-              </div>
-
-            </div>
-
-          </div>
-          {% endfor %}
-        </div>
-    </div>
 {% endblock %}
+
 
 {% block postloadjs %}
 {{ block.super }}
