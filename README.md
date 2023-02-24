@@ -1,4 +1,4 @@
-![A banner of the site](description/README/smart1.png)
+![A banner of the site](documentation/README/smart1.png)
 
 # Smart solutions
 
@@ -64,7 +64,7 @@ Smart Solutions is a Business to customer ( ***B2C*** ) E-commerce online shoppi
 - I've also added a robots.txt and a sitemap.xml to maximize google search engines.
 - I've also created a newsletter subscription function
 
-![Newsletter subscription](description/README/Smart-Solutions-newsletter-subscription.png)
+![Newsletter subscription](documentation/README/Smart-Solutions-newsletter-subscription.png)
 
 ---
 
@@ -76,8 +76,8 @@ The site has a Facebook Business page to help the business reach further and gai
 
 [Facebook page](https://www.facebook.com/profile.php?id=100090772530459)
 
-![Facebook Page](description/README/Smart-Solutions-facebook-1.png)
-![Facebook Page](description/README/Smart-Solutions-facebook-2.png)
+![Facebook Page](documentation/README/Smart-Solutions-facebook-1.png)
+![Facebook Page](documentation/README/Smart-Solutions-facebook-2.png)
 
 
 ---
@@ -105,7 +105,7 @@ There is a Create, Read, Update and Delete ( ***C.R.U.D*** ) functionality for u
 
 I used http://ami.responsivedesign.is/ to check what it would look like on all devices.
 As you can see it's fully responsive right across all devices and adapts to any screen sizes.
-![An image of the site on multiple screen sizes](description/README/Smart-Solutions-responsive.png)
+![An image of the site on multiple screen sizes](documentation/README/Smart-Solutions-responsive.png)
 
 ---
 
@@ -120,8 +120,8 @@ User stories where built in an Agile methodology Kanban board to construct the s
 
 ---
 
-![User stories](description/README/Smart-Solutions-agile-method5.png)
-![User stories](description/README/Smart-Solutions-agile-method4.png)
+![User stories](documentation/README/Smart-Solutions-agile-method5.png)
+![User stories](documentation/README/Smart-Solutions-agile-method4.png)
 
 ---
 
@@ -180,7 +180,7 @@ User stories where built in an Agile methodology Kanban board to construct the s
 
 The wire frames for the pages showcasing the bare structure of the site.
 
-![Landing page wireframe](description/README/Smart-Solutions-wireframe1.png)
+![Landing page wireframe](documentation/README/Smart-Solutions-wireframe1.png)
 
 ---
 
@@ -193,7 +193,7 @@ The wire frames for the pages showcasing the bare structure of the site.
 ## ***Draw SQL*** 
 I used https://drawsql.app/ to create the project's database schema showing the relationship between the models.
 
-![Data base](description/README/Smart-Solutions-data-schema.png)
+![Data base](documentation/README/Smart-Solutions-data-schema.png)
 
 #### Models
 - ***UserProfile*** - Stores all users details and purchase history also links the user to the reviews and wish list models.
@@ -259,8 +259,8 @@ The navigation bar is clear and easy to interpret, changing its background color
 It has a search bar for searching anything on the site quickly using keywords.
 The large white footer makes the links and newletter signup stand out. 
 
-![Landing page](description/README/Smart-Solutions-homepage1.png)
-![Landing page footer](description/README/Smart-Solutions-homepage2.png)
+![Landing page](documentation/README/Smart-Solutions-homepage1.png)
+![Landing page footer](documentation/README/Smart-Solutions-homepage2.png)
 
 ---
 
@@ -272,18 +272,18 @@ The large white footer makes the links and newletter signup stand out.
 
 The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
 
-![Nav collapsed](description/README/Smart-Solutions-collapsed-nav.png)
+![Nav collapsed](documentation/README/Smart-Solutions-collapsed-nav.png)
 
 ## The My accounts link will drop down to show:
 - The My profile link that takes the user to their own profile page.
 - The Sign out link that takes the user to the Sign out page.
 
-![My Account dropdown](description/README/Smart-Solutions-my-account-dropdown1.png)
+![My Account dropdown](documentation/README/Smart-Solutions-my-account-dropdown1.png)
 
 ## Depending on authentication:
 - The product management option is only seen when staff authentication is active.
 
-![My Account dropdown staff](description/README/Smart-Solutions-my-account-dropdown.png)
+![My Account dropdown staff](documentation/README/Smart-Solutions-my-account-dropdown.png)
 
 The Bag link takes the user to the Shopping Bag page showing the items selected by the user for purchase.
 which is fully adjustable and has a Secure checkout and a Keep shopping Button.
@@ -301,7 +301,7 @@ which is fully adjustable and has a Secure checkout and a Keep shopping Button.
 - All Products .
 All links have a nice hover effect for better UI/UX.
 
-![All products link](description/README/Smart-Solutions-all-products-link.png)
+![All products link](documentation/README/Smart-Solutions-all-products-link.png)
 
 ## The Smart Home drops down to show: ~
 - Smart hubs.
@@ -309,7 +309,7 @@ All links have a nice hover effect for better UI/UX.
 - cameras.
 - All home.
 
-![smarthome link](description/README/Smart-Solutions-shome-link.png)
+![smarthome link](documentation/README/Smart-Solutions-shome-link.png)
 
 ## The Special Offers link drops down to show: ~
 - New Arrivals.
@@ -317,7 +317,7 @@ All links have a nice hover effect for better UI/UX.
 - Clearance.
 - All Specials.
 
-![Special Offers link](description/README/Smart-Solutions-special-offers-link.png)
+![Special Offers link](documentation/README/Smart-Solutions-special-offers-link.png)
 
 - The Contact us is not a dropdown and takes you straight to the contact us page
 
@@ -347,7 +347,7 @@ All links have a nice hover effect for better UI/UX.
 
 - The contact us page is a simple page with a form that can be used by an authenticated or unauthenticated user to submit queries that can be accessed directly from the admin page. 
 
-![Contact Us Page](description/README/Smart-Solutions-contact-page.png)
+![Contact Us Page](documentation/README/Smart-Solutions-contact-page.png)
 
 ---
 
@@ -359,9 +359,9 @@ All links have a nice hover effect for better UI/UX.
 
 ## Contains: ~
 - All Product images.
-- Product names and Descriptions.
+- Product names and documentations.
 - The prices and Discount Prices if item is discounted.
-![Product Page](description/README/Smart-Solutions-product-page.png)
+![Product Page](documentation/README/Smart-Solutions-product-page.png)
 - A back to top button in bottom right corner 
 
 - ## The Category tags.
@@ -372,7 +372,7 @@ All links have a nice hover effect for better UI/UX.
 
 - ## If user is Staff User.
     - Links to the edit product will appear at the bottom.
-![Product Page links](description/README/Smart-Solutions-product-page-tag-and-links.png)
+![Product Page links](documentation/README/Smart-Solutions-product-page-tag-and-links.png)
 
 ---
 
@@ -386,18 +386,18 @@ All links have a nice hover effect for better UI/UX.
 - An individual image of selected product.
 - Product name and price or Discount price.
 - The category.
-- The Description.
+- The documentation.
 - The Quantity selector.
 - Add to bag Button.
 - Keep Shopping Button.
 - Reviews.
 
-![Product Detail Page](description/README/Smart-Solutions-product-detail.png)
+![Product Detail Page](documentation/README/Smart-Solutions-product-detail.png)
 
 The listed product reviews will appear just below the item. Just below that, if the user is authenicated the ability to add their own review is present. I would like to make this look much cleaner but with the deadline looming i have settled with basic functionality for now!
 
-![Review Form](description/README/Smart-Solutions-review-form.png)
-![Review Form](description/README/Smart-Solutions-review-form1.png)
+![Review Form](documentation/README/Smart-Solutions-review-form.png)
+![Review Form](documentation/README/Smart-Solutions-review-form1.png)
 
 
 ---
@@ -418,7 +418,7 @@ The listed product reviews will appear just below the item. Just below that, if 
 
 At the top is a prompt to ask the user to register if not already done so.
 
-![Sign In Page](description/README/Smart-Solutions-signin-page.png)
+![Sign In Page](documentation/README/Smart-Solutions-signin-page.png)
 
 ---
 
@@ -439,7 +439,7 @@ At the top is a prompt to ask the user to register if not already done so.
 
 At the top is a prompt to ask user to Login if already registered.
 
-![Sign Up Page](description/README/Smart-Solutions-signup-page.png)
+![Sign Up Page](documentation/README/Smart-Solutions-signup-page.png)
 
 ---
 
@@ -451,25 +451,25 @@ At the top is a prompt to ask user to Login if already registered.
 
 ## Contains: ~
 - An image of selected products.
-- Product description, Price or Discount Price, Quantity selector and subtotal.
+- Product documentation, Price or Discount Price, Quantity selector and subtotal.
 - Size if applicable.
 - Subtotal, Delivery cost and Grand Total.
 - Secure Checkout and Keep Shopping Button.
 
-![Shopping bag](description/README/Smart-Solutions-bag-page.png)
+![Shopping bag](documentation/README/Smart-Solutions-bag-page.png)
 
 ## which also collapses down for smaller screens sizes like all the other pages.
 
-![Shopping bag collapsed](description/README/Smart-Solutions-shoppingbag-collapsed1.png)
+![Shopping bag collapsed](documentation/README/Smart-Solutions-shoppingbag-collapsed1.png)
 
 
 ## The user is alerted each time an item is added to  or removed from the bag.
 
-![Shopping Bag Alert](description/README/Smart-Solutions-bag-alert.png)
+![Shopping Bag Alert](documentation/README/Smart-Solutions-bag-alert.png)
 
 ## The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page. 
 
-![Empty bag](description/README/Smart-Solutions-empty-bag.png)
+![Empty bag](documentation/README/Smart-Solutions-empty-bag.png)
 
 ---
 
@@ -483,14 +483,14 @@ At the top is a prompt to ask user to Login if already registered.
 
 The form will be blank.
 
-![Checkout Page](description/README/Smart-Solutions-checkout1.png)
+![Checkout Page](documentation/README/Smart-Solutions-checkout1.png)
 
 
 ## If the user is registered and signed in: ~
 
 The form will be filled out except Full Name and card details for security reasons.
 
-![Checkout Page](description/README/Smart-Solutions-checkout3.png)
+![Checkout Page](documentation/README/Smart-Solutions-checkout3.png)
 
 The items can still be adjusted at this point.
 
@@ -505,7 +505,7 @@ The items can still be adjusted at this point.
 
 ## When the Complete Order Button is pressed the user is greeted with a loading page.
 
-![Loading Page](description/README/Smart-Solutions-loading.png)
+![Loading Page](documentation/README/Smart-Solutions-loading.png)
 
 ---
 
@@ -518,7 +518,7 @@ The items can still be adjusted at this point.
  # Thank you page:
  
  With a message notifying them of the order number and purchase details being sent to their Email Address.
-![Thank You  Page](description/README/Smart-Solutions-checkout-success.png)
+![Thank You  Page](documentation/README/Smart-Solutions-checkout-success.png)
 
 ---
 
@@ -528,7 +528,7 @@ The items can still be adjusted at this point.
 
 ## Confirmation Email
 
-![Confirmation Email](description/README/Smart-Solutions-confirmation-email.png)
+![Confirmation Email](documentation/README/Smart-Solutions-confirmation-email.png)
 
 ---
 
@@ -557,7 +557,7 @@ The items can still be adjusted at this point.
 
 ## HTML Tests:
 
-![W3C HTML Validation Bag ID results](description/README/Smart-Solutions-html-validator-bag-with-item-id.png)
+![W3C HTML Validation Bag ID results](documentation/README/Smart-Solutions-html-validator-bag-with-item-id.png)
 
 - All HTML pages were tested in the W3C validator and errors were fixed. some minor warnings remain and some errors are only present based on the extension of base.html but are not affecting the site. 
 
@@ -569,13 +569,13 @@ The items can still be adjusted at this point.
 
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
 
-![W3C CSS Validation results](description/README/Smart-Solutions-css-validator-results.png)
+![W3C CSS Validation results](documentation/README/Smart-Solutions-css-validator-results.png)
 
 - I then tested the site on Safari, Opera GX and Chrome to make sure all was working correctly.
 
 - Testing the sites Performance, Accessability, Best Practices and SEO on Lighthouse. The results are not ideal, but they are reasonable for the moment. If i had more time before project submission this would definitely be one of my focus points.
 
-![Lighthouse test results](description/README/Smart-Solutions-lighthouse-test-results.png)
+![Lighthouse test results](documentation/README/Smart-Solutions-lighthouse-test-results.png)
 
 ---
 
