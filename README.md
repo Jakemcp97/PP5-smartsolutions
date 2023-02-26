@@ -53,7 +53,7 @@ https://smart-solutions-jmp.herokuapp.com
 
 # Business Model:
 
-Smart Solutions is a Business to customer ( ***B2C*** ) E-commerce online shopping site thats sells Smart home and Smart personal technology, dealing directly from the business to the customer. It has it's own Facebook page for ( ***Brand Reach*** ) to entice new shoppers and a Keywords META DATA to match the highlighted Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***SEO*** ) and links for customers to view the privacy policy and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
+Smart Solutions is a Business to customer ( ***B2C*** ) E-commerce online shopping site thats sells Smart home and Smart personal technology, dealing directly from the business to the customer. It has it's own Facebook page for ( ***Brand Reach*** ) to entice new shoppers and some keywords throughout the site to stay inline with the Meta tags. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***SEO*** ) and links for customers to view the privacy policy and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
 
 ---
 
@@ -100,7 +100,7 @@ There is a Create, Read, Update and Delete ( ***C.R.U.D*** ) functionality for u
 
 ---
 
-##  Screen shots of the site and it's responsive abilities:
+##  Screen shots of the site and it's responsiveness:
 
 
 I used http://ami.responsivedesign.is/ to check what it would look like on all devices.
@@ -116,7 +116,7 @@ As you can see it's fully responsive right across all devices and adapts to any 
 # UI/UX:
 
 ## User stories:
-User stories where built in an Agile methodology Kanban board to construct the site and all it's functionality:
+User stories were built in an Agile methodology Kanban board to construct the site and all it's functionality:
 
 ---
 
