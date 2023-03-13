@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'smart-solutions-jmp.herokuapp.com',
@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'storages',
     'contact',
+    'blog',
 
 
     # 'allauth.socialaccount.providers.google',

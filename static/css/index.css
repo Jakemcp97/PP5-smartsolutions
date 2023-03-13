@@ -7,7 +7,12 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: black;
+    padding-top: 65px;
     font-family: 'Share Tech';
+}
+
+#postdetail{
+    padding-top: 200px;
 }
 
 #topnav{
@@ -30,7 +35,6 @@ width:600px;
 
 .card {
     max-width: 100%;
-    width: 150px;
     min-width: 8rem;
 }
 
