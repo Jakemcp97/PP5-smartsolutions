@@ -38,6 +38,10 @@ width:600px;
     min-width: 8rem;
 }
 
+#blogcard{
+    padding-top: 200px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
