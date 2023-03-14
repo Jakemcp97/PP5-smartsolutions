@@ -37,6 +37,24 @@
                         </a>
                     </p>
                     {% endif %}
+
+                    {% if product.in_stock %}
+                        {% if product.available >= 5 %}
+                            <p class="small text-success">
+                                Stock: {{ product.available }}
+                            </p>
+                        {% else %}
+                            <p class="small mb-1">
+                                <bold class="text-warning">HURRY!</bold> We've only got {{ product.available }} left
+                            </p>
+                        {% endif %}
+                    {% else %}
+                        <p class="small text-danger">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                            Sorry, We are sold out!
+                        </p>
+                    {% endif %}
+
                     {% if product.rating %}
                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                     {% else %}
@@ -100,7 +118,9 @@
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
+                                {%if product.in_stock%}
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                {%endif%}
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
