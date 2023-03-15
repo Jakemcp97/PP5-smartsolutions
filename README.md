@@ -392,9 +392,13 @@ All links have a nice hover effect for better UI/UX.
 - Keep Shopping Button.
 - Reviews.
 
+- (Added after inital submission) Stock count and associated logic
+
 ![Product Detail Page](documentation/README/Smart-Solutions-product-detail.png)
 
 The listed product reviews will appear just below the item. Just below that, if the user is authenicated the ability to add their own review is present. I would like to make this look much cleaner but with the deadline looming i have settled with basic functionality for now!
+
+The stock count function will display a green, orange or red stock level based on how close the item is to running out, with green being well stocked and red being out of stock. 
 
 ![Review Form](documentation/README/Smart-Solutions-review-form.png)
 ![Review Form](documentation/README/Smart-Solutions-review-form1.png)
@@ -493,6 +497,31 @@ The form will be filled out except Full Name and card details for security reaso
 ![Checkout Page](documentation/README/Smart-Solutions-checkout3.png)
 
 The items can still be adjusted at this point.
+
+---
+
+- [Back to top ^](#Smart-Solutions)
+
+---
+
+---
+
+# Blog page:
+
+
+
+The blog page will contain blog posts related to installing and using some of the products. The creation of blog posts is restricted to Administrators, with plans to include user creation of posts for admin approval at a later version. 
+
+![Blog Page](documentation/README/Smart-Solutions-blog.png)
+
+
+## Comments section: ~
+
+Upon opening a blog post, a comment section is included to allow users to submit a comment. 
+Each comment must be approved by the admins before being visible on the site. 
+
+![comment Page](documentation/README/Smart-Solutions-comment.png)
+
 
 ---
 
