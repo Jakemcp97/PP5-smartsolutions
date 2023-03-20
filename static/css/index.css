@@ -10,6 +10,11 @@ body {
     font-family: 'Share Tech';
 }
 
+footer{
+    position: relative;
+    bottom:0;
+}
+
 #postdetail{
     padding-top: 200px;
 }
@@ -27,7 +32,6 @@ body {
 background:#fff; 
 clear:left;
 font:14px Helvetica,Arial,sans-serif;
-width:600px;
 }
 
 /*Bootstrap cards*/
